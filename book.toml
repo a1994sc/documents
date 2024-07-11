@@ -1,0 +1,19 @@
+[book]
+authors = ["Allen Conlon"]
+language = "en"
+multilingual = false
+src = "docs"
+title = "Misc Docs for things"
+
+[output.html]
+git-repository-url = "https://github.com/a1994sc/documents/tree/main"
+edit-url-template = "https://github.com/a1994sc/documents/edit/main/{path}"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
